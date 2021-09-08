@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "give back leetcode color",
+  "icons": {
+    "64": "icons/leetcode.png",
+    "128": "icons/leetcode.png",
+    "256": "icons/leetcode.png"
+  },
+  "permissions": [
+    "https://leetcode-cn/*"
+  ],
+  "web_accessible_resources": [
+    "*.woff2",
+    "*.png",
+    "*.gif",
+    "*.jpeg",
+    "*.svg"
+  ],
+  "browser_action": {
+    "default_icon": "icons/leetcode.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode-cn.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "description": "change leetcode color.",
+  "author": "czf",
+  "homepage_url": "https://github.com/EnixCoda/you"
+}
