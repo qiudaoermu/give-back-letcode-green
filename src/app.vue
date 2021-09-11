@@ -1,8 +1,8 @@
 <template>
   <div class="main">
-    <div class="runcode__20UZ e17b2gky2 css-ba7fuo-BaseButtonComponent-StyledRunCodeButton ery7n2v0">
+    <!-- <div class="runcode__20UZ e17b2gky2 css-ba7fuo-BaseButtonComponent-StyledRunCodeButton ery7n2v0">
       runcode__20UZ
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -18,6 +18,9 @@ export default {
   created() {},
   mounted() {
     // this.setAttribtue();
+    // this.changeAttributeChain().then((res) => {
+    //   window.location.href = "https://leetcode-cn.com/problemset/all/?difficulty=MEDIUM&page=1&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d&topicSlugs=array";
+    // });
   },
   methods: {
     changeAttributeChain() {

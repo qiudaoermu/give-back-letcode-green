@@ -7,7 +7,8 @@
     "256": "icons/leetcode.png"
   },
   "permissions": [
-    "https://leetcode-cn/*"
+    "https://leetcode-cn/*",
+    "https://www.jianshu.com/*"
   ],
   "web_accessible_resources": [
     "*.woff2",
@@ -22,7 +23,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://leetcode-cn.com/*"
+        "https://leetcode-cn.com/*",
+        "https://www.jianshu.com/*"
       ],
       "js": [
         "content.js"
