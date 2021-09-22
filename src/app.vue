@@ -17,6 +17,7 @@ export default {
   },
   created() {},
   mounted() {
+    $
     // this.setAttribtue();
     // this.changeAttributeChain().then((res) => {
     //   window.location.href = "https://leetcode-cn.com/problemset/all/?difficulty=MEDIUM&page=1&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJBQ19SQVRFIn1d&topicSlugs=array";
