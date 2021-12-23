@@ -9,7 +9,9 @@
   "permissions": [
     "https://leetcode-cn/*",
     "https://www.jianshu.com/*",
-    "https://www.zhihu.com/*"
+    "https://www.zhihu.com/*",
+    "https://www.quora.com/*",
+    "https://juejin.cn/*"
   ],
   "web_accessible_resources": [
     "*.woff2",
@@ -26,7 +28,9 @@
       "matches": [
         "https://leetcode-cn.com/*",
         "https://www.jianshu.com/*",
-        "https://www.zhihu.com/*"
+        "https://www.zhihu.com/*",
+        "https://www.quora.com/*",
+        "https://juejin.cn/*"
       ],
       "js": [
         "content.js"

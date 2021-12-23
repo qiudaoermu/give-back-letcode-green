@@ -45,7 +45,7 @@
   display none
 }
 .py-3 {
-  display none
+  display none !important
 }
 .pl-4 {
   display block
@@ -61,9 +61,7 @@
 .pl-4 > :nth-child(3) {
   display none
 }
-.pl-4 > :nth-child(4) {
-  display block
-}
+
 
 .pl-4 > :nth-child(5) {
   display none
@@ -90,6 +88,27 @@
   display none
 }
 // 简书
+.image-package:nth-of-type(1) {
+  
+}
+.image-package:nth-child(1) {
+  max-width 100% !important
+  max-height:none !important;
+  .image-container {
+    min-width 100% !important
+    img {
+      width: 100% !important
+    }
+  }
+}
+.image-container:nth-of-type(1) {
+  max-width 100% !important
+}
+.image-container:nth-child(1) {
+  max-width 100% !important
+}
+._2rhmJa .image-package img {
+}
 .col-xs-16 {
   width 100% !important
 }
@@ -146,4 +165,67 @@ footer {
 }
 .GlobalSideBar {
   display none
+}
+// juejing
+.sidebar-block:not(.pure){
+  display none
+}
+.container {
+  max-width:1210px !important
+}
+.main-area {
+  width: 960px !important;
+}
+.sidebar {
+  top: 0;
+  right: 15px important;
+  width: 21rem important;
+}
+.sidebar.sticky .sticky-block-box {
+  right: 100px;
+}
+.article-suspended-panel {
+  right: 2rem !important;
+  top: inherit !important;
+  bottom: 6rem !important;
+}
+.timeline-entry-list {
+  width: 950px !important;
+}
+.sidebar.top .sticky-block-box {
+  position: fixed;
+  top: 6.766999999999999rem;
+  width: inherit;
+  transition: top .2s;
+  right: 100px
+}
+.wechat-banner {
+  display none !important;
+}
+.collect-btn {
+  display none !important;
+}
+.report-btn {
+  display none !important;
+}
+.share-title {
+  display none !important;
+}
+.weibo-btn {
+  display none !important;
+}
+.qq-btn {
+  display none !important;
+}
+.wechat-btn {
+  display none !important;
+}
+.suspension-panel {
+  display none !important;
+}
+.article-banner {
+  display none !important;
+}
+.footer-author-block {
+  display none !important;
 }
