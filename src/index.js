@@ -6,6 +6,7 @@ import "./assets/styles/global.styl";
 // document.body.appendChild(root);
 import $ from "jquery";
 $(".col-xs-7.col-xs-offset-1.aside").css({ display: "none" });
+console.log($(".col-span-4 "));
 // quora
 $("#mainContent").css({ with: 1080 });
 

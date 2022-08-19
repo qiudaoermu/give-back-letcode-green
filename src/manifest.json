@@ -7,7 +7,7 @@
     "256": "icons/leetcode.png"
   },
   "permissions": [
-    "https://leetcode-cn/*",
+    "https://leetcode.cn/*",
     "https://www.jianshu.com/*",
     "https://www.zhihu.com/*",
     "https://www.quora.com/*",
@@ -26,7 +26,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://leetcode-cn.com/*",
+        "https://leetcode.cn/*",
         "https://www.jianshu.com/*",
         "https://www.zhihu.com/*",
         "https://www.quora.com/*",
